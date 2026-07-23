@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="7B892062-B3FA-4dff-92DE-B634B092D49F" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-BA-06-17" com_port="2001" bootmode="1" cx="152.000000" cy="267.000000" edit_left="179" edit_top="321">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="3FF324B0-D2FC-4114-987A-A8079D7E839E" name="LSW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-28-4C-6B" com_port="2002" bootmode="1" cx="144.000000" cy="374.000000" edit_left="171" edit_top="428">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="A20AC78F-F514-4005-A939-EC75967443C8" name="PC1" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-A1-70-51  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-A1-70-51" com_port="0" bootmode="1" cx="150.000000" cy="502.000000" edit_left="177" edit_top="556">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="9679DA69-2809-46eb-8FE9-09CA2B65BA76" name="Server1" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-1C-09-FC -ipaddr 0.0.0.0 -ipmask 255.255.255.0 -gateway 0.0.0.0 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-1C-09-FC" com_port="0" bootmode="1" cx="153.000000" cy="603.000000" edit_left="180" edit_top="657">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="63CF784B-0CFC-4487-A2C5-86332EA3F401" name="AR10" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-4F-1B-75" com_port="2000" bootmode="1" cx="469.000000" cy="24.000000" edit_left="496" edit_top="78">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines />
+    <shapes />
+    <txttips />
+</topo>
