@@ -31,8 +31,7 @@ This project represents a **complete enterprise network design and implementatio
 
 ### Topology Components
 
-![Network Topology](./10.png)
-### Site Breakdown
+![Network Topology](./New%20folder/topics%20in%20HCIA%20Datacom/11.PNG)### Site Breakdown
 
 #### 1️⃣ **HQ Site (Headquarters)**
 - **2 HQ Routers** (HQ-R1, HQ-R2) - Edge routers with VRRP redundancy
